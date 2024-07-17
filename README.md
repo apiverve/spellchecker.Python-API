@@ -1,7 +1,7 @@
 Spell Checker API
 ============
 
-Spell Checker is a simple tool for checking spelling. It returns the corrected text.
+Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -47,7 +47,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-query = {  "text": "I neeed to call my friend on telephine today!"}
+query = {  "text": "I neeed to call my friend on telephine today!" }
 ```
 
 ###### Simple Request
